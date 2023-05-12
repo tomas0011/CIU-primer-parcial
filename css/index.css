@@ -1,0 +1,234 @@
+:root {
+  --fondo: #9e8ac8;
+  --letras: #d4f985;
+  --contraste: #000000;
+  --header: #3C1C76;
+  --letrasHeader: orange;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+body {
+  background-color: var(--fondo);
+  color: var(--letras);
+}
+
+main {
+  padding: 4vw;
+}
+
+article {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+/* .modoOscuro {
+  background-color: #25114A;
+  color: orange;
+} */
+
+.navbar {
+  background-color: var(--header);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw 4vw 1vw 4vw;
+}
+
+.socialIcons li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  width: 40px;
+  height: 40px;
+}
+
+.socialIcons li:hover {
+  background-color: var(--black);
+  border-radius: 50%;
+}
+
+.socialIcons li a {
+  color: var(--letrasHeader);
+}
+
+a:hover {
+  color: var(--white) !important;
+}
+
+.navbar div {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar div div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 16px;
+}
+
+.navbar div div span {
+  color: var(--white);
+  font-size: 25px;
+}
+
+/* EL METAVERSO */
+#elMetaverso {
+  padding: 4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#elMetaverso h1 {
+  font-size: 500%;
+}
+
+#elMetaverso h2 {
+  font-size: 300%;
+}
+
+#elMetaverso p {
+  width: 60vw;
+  font-size: 150%;
+}
+
+/* TRAIDO PARA USTED */
+#traidoParaUsted {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#traidoParaUsted div {
+  margin: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+}
+
+#traidoParaUsted div img {
+  height: 100px;
+  width: auto;
+}
+
+#hflogo {
+  margin-top: 0;
+}
+
+#awelogo {
+  height: 80px;
+  margin: 12px 24px;
+}
+
+/* EVENTO */
+#evento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#evento div {
+  display: flex;
+  width: 60%;
+}
+
+#evento div h2 {
+  margin: 16px;
+}
+
+.contraste {
+  color: var(--contraste);
+}
+
+.itemDeEvento {
+  flex-direction: column;
+  justify-content: center;
+  margin: 8px;
+}
+
+.itemDeEvento p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.cuadroDeEvento {
+  border: 1px solid var(--white);
+}
+
+.ubicacionDeEvento span {
+  font-size: 50px;
+  margin: 8px;
+}
+
+/* EL TEMA */
+#elTema {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#elTema div {
+  width: 60%;
+}
+
+#elTema p {
+  width: 60%;
+}
+
+/* PERSONAS */
+#personas {
+  display: flex;
+  justify-content: center;
+}
+
+/* DETALLES DEL EVENTO */
+#detallesDelEvento {
+  display: flex;
+  align-items: center;
+}
+
+#detallesDelEvento h1 {
+  background-color: var(--black);
+  padding: 150px;
+}
+
+#detallesDelEvento div {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+}
+
+#detallesDelEvento div a {
+  align-self: flex-end;
+  margin: auto 5vw 2vw auto;
+}
+
+.contenidoDeDetalle {
+  padding: 5vw 5vw 0px 5vw;
+}
+
+footer {
+  background-color: var(--header);
+  color: var(--letrasHeader);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2vw;
+}
+
+footer a {
+  /* font-size: 40px; */
+  color: var(--letrasHeader);
+}
+
+#contacto {
+  list-style: none;
+}
