@@ -66,3 +66,19 @@ footer a {
 #contacto {
   list-style: none;
 }
+
+#map {
+  width: 600px;
+  height: 300px;
+}
+
+@media (max-width: 800px) {
+  #map {
+    width: 400px;
+    height: 300px;
+  }
+}
+
+.logo {
+  width: 200px;
+}
