@@ -1,21 +1,18 @@
 :root {
-  --fondo: #9e8ac8;
-  --letras: #d4f985;
-  --contraste: #000000;
-  --header: #3C1C76;
+  --oscuro: #3c1c76;
   --letrasHeader: orange;
-  --white: #ffffff;
-  --black: #000000;
+  --blanco: #e7e3ee;
+  --negro: #494949;
+
+  --fondo: #b6aacc;
+  --letras: #ffffff;
+  --contraste: #000000;
 }
 
 :root .darkMode {
-  --fondo: #25114A;
+  --fondo: #543887;
   --letras: orange;
   --contraste: #ffffff;
-  --header: #3C1C76;
-  --letrasHeader: orange;
-  --white: #ffffff;
-  --black: #000000;
 }
 
 body {
@@ -37,15 +34,15 @@ article {
 }
 
 a:hover {
-  color: var(--white);
+  color: var(--blanco) !important;
 }
 
 .navbar {
-  background-color: var(--header);
+  background-color: var(--oscuro);
 }
 
 .socialIcons li:hover {
-  background-color: var(--black);
+  background-color: var(--negro);
 }
 
 .socialIcons li a {
@@ -53,12 +50,12 @@ a:hover {
 }
 
 .navbar div div span {
-  color: var(--white);
+  color: var(--blanco);
   font-size: 25px;
 }
 
 footer {
-  background-color: var(--header);
+  background-color: var(--oscuro);
   color: var(--letrasHeader);
 }
 

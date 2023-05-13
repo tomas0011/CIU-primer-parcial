@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 #elMetaverso h1 {
@@ -82,7 +83,7 @@
 }
 
 .cuadroDeEvento {
-  border: 1px solid var(--white);
+  border: 1px solid var(--blanco);
 }
 
 .ubicacionDeEvento span {
@@ -118,14 +119,15 @@
 }
 
 #detallesDelEvento h1 {
-  background-color: var(--black);
+  background-color: var(--negro);
   padding: 150px;
 }
 
 #detallesDelEvento div {
   display: flex;
   flex-direction: column;
-  background-color: var(--white);
+  background-color: var(--blanco);
+  color: var(--negro);
 }
 
 #detallesDelEvento div a {
