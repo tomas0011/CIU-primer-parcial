@@ -13,7 +13,6 @@ const handlerOnChange = (e) => {
     formData.emailError = !emailValidator.test(e.target.value);
     if (initialValue != formData.emailError) {
       e.target.classList.toggle('inputError');
-      e.target.classList.toggle('inputError');
       successButton.classList.toggle('disabled');
     }
   }

@@ -12,41 +12,40 @@
   <link rel="stylesheet" href="./css/formulario.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg">
-    <ul class="navbar-nav socialIcons">
-      <li class="nav-item">
+  <nav class="navbar navbar-expand-lg d-flex justify-content-around align-items-center p-3">
+    <a href="./index.html" style="width: 10%;"><img class="w-100" src="./img/virbela.png" alt="logo"></a>
+    <ul class="navbar-nav socialIcons pl-2">
+      <li class="nav-item d-flex justify-content-center align-items-center m-2 p-2 rounded-circle" style="width: 50px; height: 50px;">
         <a class="mdi mdi-facebook" href="#"></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item d-flex justify-content-center align-items-center m-2 p-2 rounded-circle" style="width: 50px; height: 50px;">
         <a class="mdi mdi-twitter" href="#"></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item d-flex justify-content-center align-items-center m-2 p-2 rounded-circle" style="width: 50px; height: 50px;">
         <a class="mdi mdi-gmail" href="#"></a>
       </li>
     </ul>
-    <div>
-      <a type="button" class="btn btn-danger" href="./index.html">Volver</a>
-      <div class="form-check form-switch">
-        <input id="switchColors" class="form-check-input btn-light" type="checkbox" role="switch">
-        <span id="switchColorsIcon" class="mdi mdi-weather-sunny"></span>
-      </div>
+    <a type="button" class="btn btn-danger" href="./index.html">Volver</a>
+    <div class="form-check form-switch d-flex justify-content-evenly align-items-center ml-2">
+      <input id="switchColors" class="form-check-input btn-light" type="checkbox" role="switch">
+      <span id="switchColorsIcon" class="mdi mdi-weather-sunny" style="color: var(--white); font-size: 25px;"></span>
     </div>
   </nav>
-  <main>
-    <div class="form">
-      <div>
+  <main class="container-sm">
+    <div class="row align-items-center justify-content-center">
+      <div class="m-3">
         <label for="emailInput" class="form-label">Correo electrónico</label>
         <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
       </div>
-      <div>
+      <div class="m-3">
         <label for="subjectInput" class="form-label">Asunto</label>
         <input type="subject" class="form-control" id="subjectInput">
       </div>
-      <div>
+      <div class="m-3">
         <label for="textareaInput" class="form-label">Cuerpo</label>
         <textarea class="form-control" id="textareaInput" rows="5"></textarea>
       </div>
-      <a class="btn btn-success" id="successButton" href="mailto:?subject=&body=">Send</a>
+      <a class="btn btn-success m-3" id="successButton" href="mailto:?subject=&body=">Enviar</a>
     </div>
   </main>
    

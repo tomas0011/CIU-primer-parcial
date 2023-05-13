@@ -32,48 +32,24 @@ article {
   margin-bottom: 200px;
 }
 
-.navbar {
-  background-color: var(--header);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1vw 4vw 1vw 4vw;
+.btn {
+  width: 200px;
 }
 
-.socialIcons li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2px;
-  width: 40px;
-  height: 40px;
+a:hover {
+  color: var(--white);
+}
+
+.navbar {
+  background-color: var(--header);
 }
 
 .socialIcons li:hover {
   background-color: var(--black);
-  border-radius: 50%;
 }
 
 .socialIcons li a {
   color: var(--letrasHeader);
-}
-
-a:hover {
-  color: var(--white) !important;
-}
-
-.navbar div {
-  display: flex;
-  width: 200px;
-  justify-content: center;
-  align-items: center;
-}
-
-.navbar div div {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-left: 16px;
 }
 
 .navbar div div span {
@@ -84,19 +60,10 @@ a:hover {
 footer {
   background-color: var(--header);
   color: var(--letrasHeader);
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 2vw;
 }
 
 footer a {
-  /* font-size: 40px; */
   color: var(--letrasHeader);
-}
-
-.btn {
-  width: 200px;
 }
 
 #contacto {
