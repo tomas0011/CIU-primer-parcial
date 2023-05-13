@@ -8,6 +8,16 @@
   --black: #000000;
 }
 
+:root .darkMode {
+  --fondo: #25114A;
+  --letras: orange;
+  --contraste: #ffffff;
+  --header: #3C1C76;
+  --letrasHeader: orange;
+  --white: #ffffff;
+  --black: #000000;
+}
+
 body {
   background-color: var(--fondo);
   color: var(--letras);
@@ -21,11 +31,6 @@ article {
   margin-top: 100px;
   margin-bottom: 200px;
 }
-
-/* .modoOscuro {
-  background-color: #25114A;
-  color: orange;
-} */
 
 .navbar {
   background-color: var(--header);
