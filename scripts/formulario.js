@@ -6,16 +6,18 @@ let formData = {
 }
 
 const handlerOnChange = (e) => {
+  let successButton = document.querySelector("#successButton");
   if (e.target.id === 'emailInput') {
     const emailValidator = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
     const initialValue = formData.emailError;
     formData.emailError = !emailValidator.test(e.target.value);
     if (initialValue != formData.emailError) {
       e.target.classList.toggle('inputError');
+      e.target.classList.toggle('inputError');
+      successButton.classList.toggle('disabled');
     }
   }
   formData[e.target.id] = e.target.value;
-  let successButton = document.querySelector("#successButton");
   let [base, props] = successButton.getAttribute('href').split('?');
   let [subject, body] = props.split('&');
 
