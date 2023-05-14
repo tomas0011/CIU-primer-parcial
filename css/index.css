@@ -71,10 +71,16 @@
 }
 
 /* PERSONAS */
-#personas {
-  display: flex;
-  justify-content: center;
+/* #personas div {
+  color: var(--negro)
+} */
+
+#personas .card {
+  background-color: var(--negro);
+  /* color: var(--negro); */
 }
+
+
 
 /* DETALLES DEL EVENTO */
 #detallesDelEvento {
