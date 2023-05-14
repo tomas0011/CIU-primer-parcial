@@ -2,15 +2,15 @@
 
 /* EL METAVERSO */
 #elMetaverso h1 {
-  font-size: 4vw;
+  font-size: 4em;
 }
 
 #elMetaverso h2 {
-  font-size: 2vw;
+  font-size: 2em;
 }
 
 #elMetaverso p {
-  font-size: 1vw;
+  font-size: 1em;
 }
 
 /* TRAIDO PARA USTED */
@@ -37,20 +37,9 @@
   align-items: center;
 }
 
-/* #evento div {
-  display: flex;
-  width: 60%;
-} */
-
 .contraste {
   color: var(--contraste);
 }
-
-/* .itemDeEvento {
-  flex-direction: column;
-  justify-content: center;
-  margin: 8px;
-} */
 
 .itemDeEvento p {
   margin: 0;
@@ -96,12 +85,6 @@
 #detallesDelEvento h1 {
   background-color: var(--negro);
   padding: 150px;
-}
-
-@media (max-width: 800px) {
-  .hiddenOnResponsive {
-    display: none;
-  }
 }
 
 #detallesDelEvento div {

@@ -72,10 +72,20 @@ footer a {
   height: 300px;
 }
 
+.showOnResponsive {
+  display: none;
+}
+
 @media (max-width: 800px) {
   #map {
     width: 400px;
     height: 300px;
+  }
+  .hiddenOnResponsive {
+    display: none;
+  }
+  .showOnResponsive {
+    display: block;
   }
 }
 
