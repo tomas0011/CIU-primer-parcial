@@ -37,24 +37,20 @@
   align-items: center;
 }
 
-#evento div {
+/* #evento div {
   display: flex;
   width: 60%;
-}
-
-#evento div h2 {
-  margin: 16px;
-}
+} */
 
 .contraste {
   color: var(--contraste);
 }
 
-.itemDeEvento {
+/* .itemDeEvento {
   flex-direction: column;
   justify-content: center;
   margin: 8px;
-}
+} */
 
 .itemDeEvento p {
   margin: 0;
@@ -103,7 +99,7 @@
 }
 
 @media (max-width: 800px) {
-  #detallesDelEvento h1 {
+  .hiddenOnResponsive {
     display: none;
   }
 }
